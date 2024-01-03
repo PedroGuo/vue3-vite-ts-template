@@ -4,6 +4,7 @@ import { createRouter, createWebHashHistory } from 'vue-router'
 import DemoPage from '@/pages/demo/demo.vue'
 
 import IndexPage from '@/pages/home/home.vue'
+import NotFound from '@/pages/NotFound.vue';
 const routes = [
   {
     path: '/',
@@ -19,6 +20,20 @@ const routes = [
       title: 'Demo title',
     },
   },
+  {
+    path: `/404`,
+    name: 'NotFound',
+    component: NotFound,
+    meta: {
+      title: 'NotFound',
+    },
+  },
+  {
+    path: '/:catchAll(.*)',
+    name: '',
+    meta: {},
+    redirect: `/404`,
+  }
 ]
 
 const router = createRouter({

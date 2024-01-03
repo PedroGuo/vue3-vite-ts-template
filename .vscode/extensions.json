@@ -1,7 +1,5 @@
 {
   "recommendations": [
-    "antfu.iconify",
-    "antfu.unocss",
     "editorconfig.editorconfig",
     "esbenp.prettier-vscode",
     "dbaeumer.vscode-eslint",
@@ -9,6 +7,8 @@
     "vue.vscode-typescript-vue-plugin",
     "wayou.vscode-todo-highlight",
     "streetsidesoftware.code-spell-checker",
-    "jock.svg"
+    "jock.svg",
+    "austenc.tailwind-docs",
+    "bradlc.vscode-tailwindcss"
   ]
 }

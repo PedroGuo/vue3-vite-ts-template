@@ -1,12 +1,17 @@
 {
   "name": "vue3-ts-tailwind-template",
-  "private": true,
+  "author": {
+    "name": "boy-yan",
+    "email": "1950304028@qq.com",
+    "url": "https://github.com/boy-yan"
+  },
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vue-tsc && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "preinstall": "node ./scripts/preinstall.js"
   },
   "dependencies": {
     "@types/node": "^20.10.6",
@@ -18,7 +23,9 @@
   "devDependencies": {
     "@types/lodash-es": "^4.17.12",
     "@vitejs/plugin-vue": "^4.2.3",
+    "autoprefixer": "^10.4.16",
     "less": "^4.2.0",
+    "postcss": "^8.4.32",
     "tailwindcss": "3.4.0",
     "typescript": "^5.3.3",
     "vite": "^4.4.5",

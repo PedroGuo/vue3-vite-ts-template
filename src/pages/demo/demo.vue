@@ -1,5 +1,8 @@
 <template>
-  <div>I'm demo. route query is : {{  msg }}</div>
+  <div class="flex justify-center">
+    <div>I'm demo. route query is : {{  msg }}</div>
+    <RouterLink to="/">toHome</RouterLink>
+  </div>
 </template>
 
 <script setup lang='ts'>
