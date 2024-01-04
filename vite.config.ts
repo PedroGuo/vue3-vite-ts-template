@@ -1,6 +1,6 @@
 import type { ConfigEnv, UserConfig } from 'vite';
-import { loadEnv } from 'vite'
-import vue from '@vitejs/plugin-vue'
+import { loadEnv } from 'vite';
+import vue from '@vitejs/plugin-vue';
 import path from 'node:path';
 
 const envPrefix = ['VITE_'];
@@ -24,7 +24,7 @@ export default async ({ mode }: ConfigEnv): Promise<UserConfig> => {
       preprocessorOptions: {
         less: {
           modifyVars: {
-            hack: `true; @import (reference) "${path.resolve('src/style/variables.less')}";`,
+            hack: `true; @import (reference) "${path.resolve('src/styles/variables.less')}";`,
           },
           math: 'strict',
           javascriptEnabled: true,
@@ -32,6 +32,5 @@ export default async ({ mode }: ConfigEnv): Promise<UserConfig> => {
       },
     },
     plugins: [vue()],
-  }
-
-}
+  };
+};

@@ -1,11 +1,11 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from 'vue';
+
 import { setupRouter } from '@/router';
-import { setupStore } from '@/store';
+import { setupStore } from '@/stores';
 
-import '@/style/index.less';
+import App from './App.vue';
 
-
+import '@/styles/index.less';
 
 function bootstrap() {
   const app = createApp(App);

@@ -1,9 +1,8 @@
 import type { App } from 'vue';
-import { createRouter, createWebHashHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router';
 
-import DemoPage from '@/pages/demo/demo.vue'
-
-import IndexPage from '@/pages/home/home.vue'
+import DemoPage from '@/pages/demo/demo.vue';
+import IndexPage from '@/pages/home/home.vue';
 import NotFound from '@/pages/NotFound.vue';
 const routes = [
   {
@@ -33,15 +32,14 @@ const routes = [
     name: '',
     meta: {},
     redirect: `/404`,
-  }
-]
+  },
+];
 
 const router = createRouter({
   history: createWebHashHistory(import.meta.env.VITE_PUBLIC_PATH),
   routes,
   strict: true,
-  scrollBehavior: () => ({ left: 0, top: 0 }),
-})
+});
 
 export { router };
 

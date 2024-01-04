@@ -5,9 +5,10 @@
   <h1> A Simple template with <br/>Vue3, Vite and TypeScript</h1>
   
   ![](https://badges.aleen42.com/src/vue.svg)
-  ![](https://badges.aleen42.com/src/tailwindcss.svg)
   ![](https://badges.aleen42.com/src/vitejs.svg)
   ![](https://badges.aleen42.com/src/tailwindcss.svg)
+  ![](https://badges.aleen42.com/src/typescript.svg)
+  ![](https://badges.aleen42.com/src/eslint.svg)
 
 </div>
 A simple Vue 3 + TypeScript + Tailwind CSS project template to help you quickly build projects.
@@ -34,6 +35,7 @@ pnpm dev
 │   ├── router/           # Routing directory 
 │   ├── styles/           # Style directory 
 │   ├── shared/           # Tool function directory 
+│   ├── stores/            # Store directory 
 │   └── main.ts           # Entry file 
 ├── public/               # Static resource directory 
 ├── README.md             # Project description document 
@@ -49,6 +51,8 @@ pnpm dev
 - [vue-router 4](https://router.vuejs.org/)
 - [TypeScript 5](https://www.typescriptlang.org/)
 - [tailwindcss](https://tailwindcss.com/)
+- [ESLint](https://eslint.org/)
+- [Prettier](https://prettier.io/)
 
 
 ## License

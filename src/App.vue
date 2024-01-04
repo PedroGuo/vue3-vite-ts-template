@@ -1,5 +1,5 @@
 <script setup lang="ts">
-defineOptions({ name: 'App' });
+  defineOptions({ name: 'App' });
 </script>
 
 <template>
@@ -13,4 +13,3 @@ defineOptions({ name: 'App' });
     </template>
   </RouterView>
 </template>
-
